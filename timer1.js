@@ -7,6 +7,5 @@ for (const input of args) {
   const sec = Number(input);
   setTimeout(() => {
     process.stdout.write('\x07');
-    console.log('hi');
   }, sec * 1000);
 }
